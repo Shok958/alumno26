@@ -38,7 +38,7 @@
                             <input type="submit" class="btn btn-primary" value="Edit">
                         </form>
                         @if(Auth::user()->rol == 'user')
-                            <a href="/users/deleteaccount/{{$user->id}}"><button class="btn btn-danger">Delete account</button> </a>
+                            <a href="/users/deleteaccount/{{$user->id}}"><button class="btn btn-danger pull-right">Delete account</button> </a>
                         @endif
 
                     </div>
